@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- All Content copyright DigiPen Institute of Technology 2016 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/layouts">
+        <menu>
+            <item
+                android:id="@+id/nav_linear_layout_vertical"
+                android:title="@string/vertical_linear_layout" />
+            <item
+                android:id="@+id/nav_linear_layout_horizontal"
+                android:title="@string/horizontal_linear_layout"/>
+            <item
+                android:id="@+id/nav_table_layout"
+                android:title="@string/table_layout"/>
+            <item
+                android:id="@+id/nav_grid_layout"
+                android:title="@string/grid_layout"/>
+
+            <item
+                android:id="@+id/nav_relative_layout"
+                android:title="@string/relative_layout"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/string_resources">
+        <menu>
+            <item
+                android:id="@+id/basic_string_resources"
+                android:title="@string/basic_string_resources"/>
+            <item
+                android:id="@+id/nav_plural_string_resources"
+                android:title="@string/plural_string_resources"/>
+            <item
+                android:id="@+id/nav_string_arrays"
+                android:title="@string/string_arrays"/>
+        </menu>
+    </item>
+
+</menu>
